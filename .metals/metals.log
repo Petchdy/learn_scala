@@ -1,0 +1,173 @@
+2568.01.08 23:39:00 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\Petch\learn_scala' for client Visual Studio Code 1.96.2.
+2568.01.08 23:39:01 INFO  no build target found for C:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:39:02 INFO  no build target found for C:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:42:45 INFO  no build target found for C:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:42:45 INFO  no build target found for C:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:43:51 INFO  no build target found for c:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:43:56 INFO  no build target found for c:\Users\Petch\learn_scala\src\main\scala\example\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2568.01.08 23:44:53 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Petch\AppData\Local\Temp\metals11641943829668547027\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2568.01.08 23:44:54 INFO  [info] welcome to sbt 1.10.7 (Oracle Corporation Java 21.0.4)
+2568.01.08 23:44:56 INFO  [info] loading settings for project learn_scala-build-build from metals.sbt...
+2568.01.08 23:44:56 INFO  [info] loading project definition from C:\Users\Petch\learn_scala\project\project
+2568.01.08 23:44:58 INFO  [info] loading settings for project learn_scala-build from metals.sbt...
+2568.01.08 23:44:58 INFO  [info] loading project definition from C:\Users\Petch\learn_scala\project
+2568.01.08 23:45:00 INFO  [success] Generated .bloop\learn_scala-build.json
+2568.01.08 23:45:00 INFO  [success] Total time: 2 s, completed 8 ม.ค. 2568 23:45:00
+2568.01.08 23:45:01 INFO  [info] loading settings for project learn_scala from build.sbt...
+2568.01.08 23:45:01 INFO  [info] set current project to learn_scala (in build file:/C:/Users/Petch/learn_scala/)
+2568.01.08 23:45:01 INFO  [success] Generated .bloop\learn_scala.json
+2568.01.08 23:45:01 INFO  [success] Generated .bloop\learn_scala-test.json
+2568.01.08 23:45:01 INFO  [success] Total time: 0 s, completed 8 ม.ค. 2568 23:45:01
+2568.01.08 23:45:01 INFO  time: ran 'sbt bloopInstall' in 8.75s
+2568.01.08 23:45:01 INFO  Attempting to connect to the build server...
+2568.01.08 23:45:01 INFO  Found a Bloop server running
+2568.01.08 23:45:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:45:02 INFO  Attempting to connect to the build server...
+2568.01.08 23:45:02 INFO  Found a Bloop server running
+2568.01.08 23:45:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\project\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:45:01 INFO  time: Connected to build server in 0.93s
+2568.01.08 23:45:01 INFO  Connected to Build server: Bloop v2.0.6
+2568.01.08 23:45:02 INFO  running doctor check
+2568.01.08 23:45:02 INFO  java targets: learn_scala, learn_scala-build, learn_scala-test
+2568.01.08 23:45:09 INFO  time: indexed workspace in 6.82s
+2568.01.08 23:46:31 INFO  Deduplicating compilation of learn_scala from bsp client 'Metals 1.4.2' (since 1m 28.819s)
+2568.01.08 23:46:31 INFO  compiling learn_scala (10 scala sources)
+2568.01.08 23:46:31 INFO  compiling learn_scala (10 scala sources)
+2568.01.08 23:46:32 INFO  time: compiled learn_scala in 1.21s
+2568.01.08 23:46:32 INFO  compiling learn_scala (10 scala sources)
+2568.01.08 23:46:32 INFO  time: compiled learn_scala in 0.17s
+2568.01.08 23:46:51 INFO  Shutting down server
+2568.01.08 23:46:51 INFO  shutting down Metals
+2568.01.08 23:46:51 INFO  Shut down connection with build server.
+2568.01.08 23:46:51 INFO  Shut down connection with build server.
+2568.01.08 23:46:51 INFO  Exiting server
+2568.01.08 23:47:46 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\Petch\learn_scala' for client Visual Studio Code 1.96.2.
+2568.01.08 23:47:47 INFO  Attempting to connect to the build server...
+2568.01.08 23:47:47 INFO  Found a Bloop server running
+2568.01.08 23:47:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:47:47 INFO  Attempting to connect to the build server...
+2568.01.08 23:47:47 INFO  Found a Bloop server running
+2568.01.08 23:47:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\project\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:47:47 INFO  time: Connected to build server in 0.97s
+2568.01.08 23:47:47 INFO  Connected to Build server: Bloop v2.0.6
+2568.01.08 23:47:48 INFO  running doctor check
+2568.01.08 23:47:48 INFO  java targets: learn_scala, learn_scala-build, learn_scala-test
+2568.01.08 23:47:52 INFO  time: indexed workspace in 3.71s
+2568.01.08 23:47:52 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:47:52 INFO  time: compiled learn_scala in 0.24s
+2568.01.08 23:48:12 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:12 INFO  time: compiled learn_scala in 0.13s
+2568.01.08 23:48:15 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:15 INFO  time: compiled learn_scala in 0.13s
+2568.01.08 23:48:34 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:34 INFO  time: compiled learn_scala in 0.53s
+2568.01.08 23:48:37 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:37 INFO  time: compiled learn_scala in 0.23s
+ม.ค. 08, 2025 11:48:48 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 183
+2568.01.08 23:48:49 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:49 INFO  time: compiled learn_scala in 0.23s
+2568.01.08 23:48:50 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:50 INFO  time: compiled learn_scala in 0.14s
+2568.01.08 23:48:53 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:48:53 INFO  time: compiled learn_scala in 0.13s
+2568.01.08 23:49:07 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:49:07 INFO  time: compiled learn_scala in 0.26s
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method clear,
+or remove the empty argument list from its definition (Java-defined methods are exempt).
+In Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable]
+nums.clear
+^^^^^^^^^^
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:29:1: method trimStart in trait Buffer is deprecated (since 2.13.4): use dropInPlace instead
+d.trimStart(2)
+^^^^^^^^^^^
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:30:1: method trimEnd in trait Buffer is deprecated (since 2.13.4): use dropRightInPlace instead
+d.trimEnd(2)
+^^^^^^^^^
+2568.01.08 23:49:10 INFO  time: evaluated worksheet 'Array_Buffer.worksheet.sc' in 3.59s
+2568.01.08 23:49:11 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:49:11 INFO  time: compiled learn_scala in 0.23s
+2568.01.08 23:49:12 INFO  time: evaluated worksheet 'List.worksheet.sc' in 0.51s
+2568.01.08 23:49:12 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:49:12 INFO  time: compiled learn_scala in 0.34s
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:17:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method clear,
+or remove the empty argument list from its definition (Java-defined methods are exempt).
+In Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable]
+nums.clear
+^^^^^^^^^^
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:29:1: method trimStart in trait Buffer is deprecated (since 2.13.4): use dropInPlace instead
+d.trimStart(2)
+^^^^^^^^^^^
+[33mwarning[39m: src\main\scala\Note\Array_Buffer.worksheet.sc:30:1: method trimEnd in trait Buffer is deprecated (since 2.13.4): use dropRightInPlace instead
+d.trimEnd(2)
+^^^^^^^^^
+2568.01.08 23:49:13 INFO  time: evaluated worksheet 'Array_Buffer.worksheet.sc' in 0.53s
+2568.01.08 23:49:28 INFO  time: code lens generation in 1.77s
+ม.ค. 08, 2025 11:49:44 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 319
+2568.01.08 23:49:47 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:49:47 INFO  time: compiled learn_scala in 0.15s
+2568.01.08 23:49:49 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Petch\AppData\Local\Temp\metals5488601353825773581\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2568.01.08 23:49:51 INFO  [info] welcome to sbt 1.10.7 (Oracle Corporation Java 21.0.4)
+2568.01.08 23:49:51 INFO  [info] loading settings for project learn_scala-build-build from metals.sbt...
+2568.01.08 23:49:52 INFO  [info] loading project definition from C:\Users\Petch\learn_scala\project\project
+2568.01.08 23:49:52 INFO  [info] loading settings for project learn_scala-build from metals.sbt...
+2568.01.08 23:49:52 INFO  [info] loading project definition from C:\Users\Petch\learn_scala\project
+2568.01.08 23:49:54 INFO  [success] Generated .bloop\learn_scala-build.json
+2568.01.08 23:49:54 INFO  [success] Total time: 2 s, completed 8 ม.ค. 2568 23:49:54
+2568.01.08 23:49:56 INFO  [info] loading settings for project learn_scala from build.sbt...
+2568.01.08 23:49:56 INFO  [info] set current project to learn_scala (in build file:/C:/Users/Petch/learn_scala/)
+2568.01.08 23:49:56 INFO  [success] Generated .bloop\learn_scala-test.json
+2568.01.08 23:49:56 INFO  [success] Generated .bloop\learn_scala.json
+2568.01.08 23:49:56 INFO  [success] Total time: 0 s, completed 8 ม.ค. 2568 23:49:57
+2568.01.08 23:49:57 INFO  time: ran 'sbt bloopInstall' in 7.58s
+2568.01.08 23:49:57 INFO  Disconnecting from Bloop session...
+2568.01.08 23:49:57 INFO  Shut down connection with build server.
+2568.01.08 23:49:57 INFO  Shut down connection with build server.
+2568.01.08 23:49:57 INFO  Attempting to connect to the build server...
+2568.01.08 23:49:57 INFO  Found a Bloop server running
+2568.01.08 23:49:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:49:57 INFO  Attempting to connect to the build server...
+2568.01.08 23:49:57 INFO  Found a Bloop server running
+2568.01.08 23:49:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Petch\learn_scala\project\.metals\bsp.trace.json or C:\Users\Petch\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2568.01.08 23:49:57 INFO  time: Connected to build server in 0.83s
+2568.01.08 23:49:57 INFO  Connected to Build server: Bloop v2.0.6
+2568.01.08 23:49:57 INFO  running doctor check
+2568.01.08 23:49:57 INFO  java targets: learn_scala, learn_scala-build, learn_scala-test
+2568.01.08 23:50:00 INFO  time: indexed workspace in 2s
+2568.01.08 23:50:00 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:50:03 INFO  time: compiled learn_scala in 2.22s
+2568.01.08 23:50:18 INFO  compiling learn_scala (1 scala source)
+2568.01.08 23:50:18 INFO  time: compiled learn_scala in 0.52s
+2568.01.08 23:54:26 INFO  compiling learn_scala (9 scala sources)
+2568.01.08 23:54:32 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2568.01.08 23:54:32 INFO  time: compiled learn_scala in 6.55s
+2568.01.08 23:54:37 INFO  compiling learn_scala (1 scala source)
+2568.01.08 23:54:38 INFO  time: compiled learn_scala in 1.39s
+2568.01.08 23:54:38 INFO  compiling learn_scala (2 scala sources)
+2568.01.08 23:54:38 INFO  time: compiled learn_scala in 0.25s
+2568.01.08 23:54:40 INFO  compiling learn_scala (1 scala source)
+2568.01.08 23:54:41 INFO  time: compiled learn_scala in 1.06s
+2568.01.08 23:54:41 INFO  compiling learn_scala (2 scala sources)
+2568.01.08 23:54:41 INFO  time: compiled learn_scala in 0.21s
+ม.ค. 08, 2025 11:54:41 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 537
+2568.01.08 23:54:42 INFO  compiling learn_scala (1 scala source)
+2568.01.08 23:54:42 INFO  time: compiled learn_scala in 0.99s
+2568.01.08 23:54:42 INFO  compiling learn_scala (2 scala sources)
+2568.01.08 23:54:44 INFO  time: compiled learn_scala in 0.16s
+2568.01.08 23:54:48 INFO  compiling learn_scala (2 scala sources)
+2568.01.08 23:54:49 INFO  time: compiled learn_scala in 1.1s
+2568.01.08 23:54:49 INFO  compiling learn_scala (2 scala sources)
+2568.01.08 23:54:49 INFO  time: compiled learn_scala in 0.19s
+2568.01.08 23:54:53 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:54:55 INFO  time: compiled learn_scala in 1.63s
+2568.01.08 23:54:55 INFO  compiling learn_scala (3 scala sources)
+2568.01.08 23:54:55 INFO  time: compiled learn_scala in 0.34s
+2568.01.08 23:54:56 INFO  compiling learn_scala (4 scala sources)
+2568.01.08 23:54:56 INFO  time: compiled learn_scala in 0.33s
+2568.01.08 23:55:00 INFO  compiling learn_scala (9 scala sources)
+2568.01.08 23:55:00 INFO  time: compiled learn_scala in 0.62s
+2568.01.08 23:55:03 INFO  compiling learn_scala (9 scala sources)
+2568.01.08 23:55:05 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2568.01.08 23:55:05 INFO  time: compiled learn_scala in 2.58s

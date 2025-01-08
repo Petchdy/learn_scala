@@ -1,0 +1,586 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "learn_scala-test",
+        "directory": "C:\\Users\\Petch\\learn_scala",
+        "workspaceDir": "C:\\Users\\Petch\\learn_scala",
+        "sources": [
+            "C:\\Users\\Petch\\learn_scala\\src\\test\\scala",
+            "C:\\Users\\Petch\\learn_scala\\src\\test\\scala-2.13",
+            "C:\\Users\\Petch\\learn_scala\\src\\test\\scala-2",
+            "C:\\Users\\Petch\\learn_scala\\src\\test\\java",
+            "C:\\Users\\Petch\\learn_scala\\target\\scala-2.13\\src_managed\\test"
+        ],
+        "dependencies": [
+            "learn_scala"
+        ],
+        "classpath": [
+            "C:\\Users\\Petch\\learn_scala\\.bloop\\learn_scala\\scala-2.13\\classes",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit_2.13\\0.5.0\\toolkit_2.13-0.5.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit-test_2.13\\0.5.0\\toolkit-test_2.13-0.5.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalaj\\scalaj-http_2.13\\2.4.2\\scalaj-http_2.13-2.4.2.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.3.0\\scala-xml_2.13-2.3.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\core_2.13\\4.0.0-M16\\core_2.13-4.0.0-M16.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\upickle_2.13\\4.0.0-M16\\upickle_2.13-4.0.0-M16.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\3.3.1\\upickle_2.13-3.3.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.10.3\\os-lib_2.13-0.10.3.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit_2.13\\1.0.0\\munit_2.13-1.0.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.7.10\\core_2.13-1.7.10.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.3.19\\core_2.13-1.3.19.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.3.19\\ws_2.13-1.3.19.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\json-common_2.13\\4.0.0-M16\\json-common_2.13-4.0.0-M16.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.3.1\\ujson_2.13-3.3.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\3.3.1\\upack_2.13-3.3.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\3.3.1\\upickle-implicits_2.13-3.3.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.1.1\\geny_2.13-1.1.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\junit-interface\\1.0.0\\junit-interface-1.0.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit-diff_2.13\\1.0.0\\munit-diff_2.13-1.0.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.13.2\\junit-4.13.2.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.3.1\\upickle-core_2.13-3.3.1.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
+            "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar"
+        ],
+        "out": "C:\\Users\\Petch\\learn_scala\\.bloop\\learn_scala",
+        "classesDir": "C:\\Users\\Petch\\learn_scala\\.bloop\\learn_scala\\scala-2.13\\test-classes",
+        "resources": [
+            "C:\\Users\\Petch\\learn_scala\\src\\test\\resources",
+            "C:\\Users\\Petch\\learn_scala\\target\\scala-2.13\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.15",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar",
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.15\\scala-compiler-2.13.15.jar",
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.15\\scala-reflect-2.13.15.jar",
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.26.3\\jline-3.26.3.jar",
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            },
+            "bridgeJars": [
+                "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.15\\scala2-sbt-bridge-2.13.15.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Petch\\learn_scala"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "toolkit_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "toolkit_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit_2.13\\0.5.0\\toolkit_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "toolkit_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit_2.13\\0.5.0\\toolkit_2.13-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalaj",
+                    "name": "scalaj-http_2.13",
+                    "version": "2.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalaj-http_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalaj\\scalaj-http_2.13\\2.4.2\\scalaj-http_2.13-2.4.2.jar"
+                        },
+                        {
+                            "name": "scalaj-http_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalaj\\scalaj-http_2.13\\2.4.2\\scalaj-http_2.13-2.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "2.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.3.0\\scala-xml_2.13-2.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.3.0\\scala-xml_2.13-2.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "core_2.13",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\core_2.13\\4.0.0-M16\\core_2.13-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\core_2.13\\4.0.0-M16\\core_2.13-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "upickle_2.13",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\upickle_2.13\\4.0.0-M16\\upickle_2.13-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\upickle_2.13\\4.0.0-M16\\upickle_2.13-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.13",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\3.3.1\\upickle_2.13-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle_2.13\\3.3.1\\upickle_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.13",
+                    "version": "0.10.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.10.3\\os-lib_2.13-0.10.3.jar"
+                        },
+                        {
+                            "name": "os-lib_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.10.3\\os-lib_2.13-0.10.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.model",
+                    "name": "core_2.13",
+                    "version": "1.7.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.7.10\\core_2.13-1.7.10.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\model\\core_2.13\\1.7.10\\core_2.13-1.7.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "core_2.13",
+                    "version": "1.3.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.3.19\\core_2.13-1.3.19.jar"
+                        },
+                        {
+                            "name": "core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\core_2.13\\1.3.19\\core_2.13-1.3.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "ws_2.13",
+                    "version": "1.3.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ws_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.3.19\\ws_2.13-1.3.19.jar"
+                        },
+                        {
+                            "name": "ws_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\shared\\ws_2.13\\1.3.19\\ws_2.13-1.3.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "json-common_2.13",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json-common_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\json-common_2.13\\4.0.0-M16\\json-common_2.13-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "json-common_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client4\\json-common_2.13\\4.0.0-M16\\json-common_2.13-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.3.1\\ujson_2.13-3.3.1.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.3.1\\ujson_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.13",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\3.3.1\\upack_2.13-3.3.1.jar"
+                        },
+                        {
+                            "name": "upack_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upack_2.13\\3.3.1\\upack_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.13",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\3.3.1\\upickle-implicits_2.13-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-implicits_2.13\\3.3.1\\upickle-implicits_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.1.1\\geny_2.13-1.1.1.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.1.1\\geny_2.13-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.3.1\\upickle-core_2.13-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.3.1\\upickle-core_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.15",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.15\\scala-library-2.13.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "toolkit-test_2.13",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "toolkit-test_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit-test_2.13\\0.5.0\\toolkit-test_2.13-0.5.0.jar"
+                        },
+                        {
+                            "name": "toolkit-test_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\toolkit-test_2.13\\0.5.0\\toolkit-test_2.13-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "munit_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "munit_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit_2.13\\1.0.0\\munit_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "munit_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit_2.13\\1.0.0\\munit_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "junit-interface",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-interface",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\junit-interface\\1.0.0\\junit-interface-1.0.0.jar"
+                        },
+                        {
+                            "name": "junit-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\junit-interface\\1.0.0\\junit-interface-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "munit-diff_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "munit-diff_2.13",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit-diff_2.13\\1.0.0\\munit-diff_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "munit-diff_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\munit-diff_2.13\\1.0.0\\munit-diff_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.13.2\\junit-4.13.2.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\junit\\junit\\4.13.2\\junit-4.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Petch\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
